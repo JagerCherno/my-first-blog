@@ -7,11 +7,13 @@
             <h1><a href="/">Cherno hate django.....</a></h1>
         </div>
 
-        <div>
-            <h2><a href="">My fails are my inspiration </a></h2>
-            <p>To satisfy the fixation </p>
-            <p>published: never</p>
-        </div>
+        {% for post in posts %}
+    <div>
+        <p>published: {{ post.published_date }}</p>
+        <h1><a href="">{{ post.title }}</a></h1>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </div>
+{% endfor %}
 
         <div>
             <h2><a href="">Live it everyday </a></h2>
