@@ -4,3 +4,4 @@ git status
 git add --all
 git commit -m "Changed SMTH"
 git push
+cd jagercherno.pythonanywhere.com
