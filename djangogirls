@@ -1,0 +1,2 @@
+cd /d D:\Spyder\GIS\djangogirls
+python manage.py runserver
