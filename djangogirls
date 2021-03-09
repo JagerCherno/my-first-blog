@@ -1,7 +1,7 @@
 cd /d D:\Spyder\GIS\djangogirls
 python manage.py runserver
 git status
-git add --all
+git add --all .
 git commit -m "Changed SMTH"
 git push
 git pull

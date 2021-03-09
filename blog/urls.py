@@ -8,3 +8,5 @@ urlpatterns = [
     path('post/<int:pk>/edit/', views.post_edit, name='post_edit'),
     path('sort/<str:r>', views.post_list, name='post_list_rev'),
 ]
+
+#test
